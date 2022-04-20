@@ -1,0 +1,28 @@
+*{
+    font-size:30px;
+}
+.div1{
+    width:100px;
+    height:200px;
+    background-color: aqua;
+    position:relative;
+    right:20px;
+    z-index:3;
+}
+.div2{
+    width:200px;
+    height:100px;
+    background-color: yellow;
+    top:-50px;
+    opacity:1;
+    position: absolute;
+    z-index:1;
+}
+.div3{
+    width:200px;
+    height:100px;
+    background-color: pink;
+    bottom:50px;
+    position: relative;
+    z-index: 5;
+}

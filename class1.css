@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400&display=swap');
+body{
+    font-family:"Poppins","Verdana",sans-serif;
+}
+tr1{
+    background-color: blue;
+    color: white;
+    text-align:left;
+    text-transform:uppercase;
+}
+.tr:nth-chile(){
+    background-color: green;
+}
+td,th{
+    padding:1em
+}
+table{
+    width:100%;
+    border:1px solid #ddd;
+    border-radius:1em;
+    border-spacing:0px;
+    border-radius: 1em;
+    overflow:hidden;
+}
+tr:nth-child(even){
+    background-color: aqua;
+}

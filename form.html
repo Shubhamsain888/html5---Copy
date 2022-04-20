@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>html form</h1>
+    <form>
+        <fieldset>
+           <legend> Personal Name</legend> 
+       
+        <label for="firstName">First Name:</label>
+        <br>
+       <input type="text" name="firstName" value="Manish" autocomplete="off" required >
+       <br>
+       <label for="lastName">Last name:</label>
+       <br>
+       <input type="text" name="lastName" value="sain" >
+       <br>
+    
+       <label for="email">email:</label>
+       <input type="email" name="email" autocomplete="off" >
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend> for submit </legend>
+       <input type ="submit" value="next">
+       <input type ="submit" >
+    </fieldset>
+    </form>
+    <form>
+        <input type="radio" id="c" name="fav_">
+        <label for="c">c</label>
+        <br>
+        <input type="radio" id="c++" name="fav_">
+        <label for="c++">css</label>
+        <br>
+        <input type="radio" id="java" name="fav_">
+        <label for="java">js</label>
+        <br>
+        <br>
+        <input type="radio" id="html" name="fav_language">
+        <label for="html">HTML</label>
+        <br>
+        <input type="radio" id="css" name="fav_language">
+        <label for="css">css</label>
+        <br>
+        <input type="radio" id="js" name="fav_language">
+        <label for="js">js</label>
+    </form>
+    <h1>
+        Check boxes -choose 0 or more options
+    </h1>
+    <br>
+    <form>
+        even if we give the name we can choose more than option on checkbox
+       <br>
+        <input type="checkbox" id="bike"  value="Bike" >
+        <label for="bike">i have a bike</label>
+        <br>
+        <input type="checkbox" id="car" value="Car">
+        <label for="car"> i have a car</label>
+        <br>
+        <input type="checkbox" id="boat" value="Boat">
+        <label for="boat"> i have a boat</label>
+    </form>
+    <br>
+    <br>
+    <form action="/handle-data">
+    <label for="cars">choose car:</label>
+    <select name="cars">
+        <option value="volvo"> volvo car</option>
+        <option value="fiat">Fiat car</option>
+        <option value="audi">audi car</option>
+        <option value="bmw"> bmw car</option>
+    </select>
+    <br>
+    <br>
+    <label for="write">what you want to say </label>
+    <br>
+
+    <textarea name="essayText" id="essay" cols="30" rows="10"></textarea>
+    
+    <button type="button"> Clear text Area</button>
+    <input type="submit"> 
+    <br>
+    <br> 
+    <form>
+        <fieldset>
+            <legend>for testing purpose</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="xyz " autofocus>
+        <br>
+        <label for="fatherName">FatherName</label>
+        <input type="text" name="fatherName" placeholder="devendra sain" disabled>
+        <br>
+        <label for="name">Password:</label>
+        <input type="password" name="name">
+        <br>
+        <label for="points">Points</label>
+        <input type="number" id="points" name="points" step="3">
+    </fieldset>
+    </form>  
+</form>
+</body>
+</html>
