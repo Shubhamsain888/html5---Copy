@@ -1,0 +1,16 @@
+/* globle variable */
+:root{
+    --yellowcolor:yellow;
+    --blackcolor:red;
+}
+div{
+    --aquacolor:rgb(39, 78, 78);
+    background-color: var(--yellowcolor);
+    color:var(--aquacolor);
+
+}
+@media screen and (max-width:800px){
+    :root{
+        --yellowcolor:#123abc;
+    }
+}

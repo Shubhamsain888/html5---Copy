@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    
+}
+.container{
+    background-image: url(https://www.gannett-cdn.com/-mm-/68e8b71abbc8efef5b45bf1c5911e8d646995f16/c=287-0-4712-2500/local/-/media/2016/08/05/USATODAY/USATODAY/636060156765079848-DSC-1135.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp);
+    width: 100%;
+    background-position: center;
+    background-size:cover;
+    height:109vh;
+}
+.logo{
+    color:rgb(192, 178, 194);
+    font-size: 50px;
+    font-style: italic;
+    float:left;
+    
+}
+.menu{
+    width:400px;
+    height:60px;
+    float:left;
+    margin-left:50px;
+    padding-top:10px;
+    display:flex;
+}
+ul{
+    float:left;
+    display:flex;
+    
+    justify-content:center;
+    align-item:center;
+    
+}
+ul li{
+    list-style:none;
+    font-size:25px;
+    margin-right:10px;
+    margin-left:10px;
+   
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+ul li a:hover{
+    color:orange;
+    transition:0.4s ease;
+}
+.search{
+    float:left; 
+   display:flex;
+   width:300px;
+   margin-left:270px;
+   margin-top:10px;
+   height:30px;
+}
+.textS{
+    background:transparent;
+    width:200px;
+    height:40px;
+   color:orange;
+   border-radius:1em;
+   border-color: rgb(53, 53, 142);
+}
+.btn{
+    width:100px;
+    height:40px;
+    color:black;
+    border-radius:1em;
+    transition: 0.4s ease;
+}
+.btn:focus{
+    /* outline:none; */
+}
+.textS:focus{
+    outline:none;
+}
+.btn:hover{
+    background-color: rgb(77, 77, 219);
+    opacity:0.5;
+}
+.content{
+    float:left;
+    margin-right:400px;
+    width:50%;
+    height:30px;
+    font-size: 50px;
+    color:rgb(14, 173, 226);
+    padding:20px;
+    text-align:left;
+    margin-top:40px;
+    transition:0.4s ease;
+}
+.content:hover{
+    color:rgb(135, 90, 90);
+    opacity:0.9;
+}
+.join{
+    width:100px;
+    height:50px;
+    background-color:white;
+    border-radius: 1em;
+    opacity:0.9;
+    cursor:pointer;
+    transition: .4s ease;
+}
+.join:hover{
+    background-color: rgb(61, 61, 142);
+    transition: .4s ease;
+}
+.form{
+    /* float:right; */
+    /* display:flex;
+     */
+     position:absolute;
+    margin-left:750px;
+    margin-top:150px;
+    background-color: rgb(98, 100, 157);
+    border-radius: 1em;
+    width:30%;
+    height:60%;
+    padding:20px;
+    text-align: center;
+    opacity:0.8;
+}
+.login{
+    margin-top:50px;
+    margin-bottom:50px;
+    height:30px;
+    border-radius:1em;
+    background-color:black;
+}
+.Fbtn{
+    width:100px;
+    height:50px;
+    background-color:white;
+    border-radius: 1em;
+    opacity:0.9;
+    cursor:pointer;
+    transition: .4s ease;
+}
+.Fbtn:hover{
+    background-color: rgb(61, 61, 142);
+    transition: .4s ease;
+}

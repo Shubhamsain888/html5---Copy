@@ -1,0 +1,31 @@
+/* p{
+    
+    border:5px solid black;
+    padding:20px;
+   
+    
+} */
+
+p>img{
+    width:200px;
+    float:right;
+    height:200px;
+    margin-right:20px;
+    
+}
+p::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+.box{
+    float:left;
+    
+   background-color: aquamarine;
+    width:33%;
+    text-align: center;
+}
+.container::after{
+    clear:both;
+    display:table;
+}

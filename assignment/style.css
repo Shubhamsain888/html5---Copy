@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpMV3ocUcPTSTkugNWKLEObJ9CyEeJhJkF_kdh_bAmvZtIkE8Almjrr4GuRDB23lMVenM&usqp=CAU);
+    
+}
+.img1{
+    float:left;
+    width:30%;
+    margin-left:20px;
+    margin-top:20px;
+    border-radius:1em;
+    opacity:0.9;
+}
+.container{
+    padding:20px;
+    background-color: aquamarine;
+    width:1000px;
+    margin:auto;
+    border-radius: 1em;
+   
+}
+p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    margin:0;
+    color:aliceblue
+}
+img:hover{
+    opacity:1;
+}
